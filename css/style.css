@@ -36,13 +36,15 @@ ul.menu{
 .menu li {
     list-style: none;
 }
+.product-info {
+    padding-right: 162px;
+}
 /* hero section */
 .product {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    display: flex;
     align-items: center;
     height: 600px;
+    justify-content: space-around;
 }
 h2.product-title {
     font-size: 52px;
@@ -62,6 +64,7 @@ button.gobel {
     border: 1px solid;
     border-radius: 26px;
     margin-top: 27px;
+    width: 222px;
 }
 button.gobel i{
     padding-left:8px;
@@ -69,13 +72,14 @@ button.gobel i{
 .product-image {
     background-image: url("../images/Circle\ design.svg");
     padding: 18px;
+    display: flex;
+    flex-direction: column;
 }
 /* image of company */
 .com-img {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    height: 400px;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
 }
 
 .com-img img {
@@ -134,27 +138,7 @@ article.blogs {
 }
 
 /* footer */
-.footer-info {
+footer {
     text-align: center;
     color: #fff;
-    line-height: 31px;
-}
-
-footer {
-    background: black;
-    padding: 37px;
-}
-
-h2.ftitle {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.footer-info p {
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.social i {
-    padding-right: 12px;
-}
+    }
