@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #AAAAAA; */
+}
+.container{
+    width: 1400px;
+    margin: auto;
+    }
+a{
+    text-decoration: none;
+}
+.image {
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+/* manu section */
+
+.logo a {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+ul.menu{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.menu li {
+    list-style: none;
+}
+/* hero section */
+.product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+}
+h2.product-title {
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+p.info {
+    font-size: 16px;
+    font-weight: 500;
+}
+button.gobel {
+    background: #E02C6D;
+    padding: 15px 24px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 26px;
+    margin-top: 27px;
+}
+button.gobel i{
+    padding-left:8px;
+}
+.product-image {
+    background-image: url("../images/Circle\ design.svg");
+    padding: 18px;
+}
+/* image of company */
+.com-img {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    height: 400px;
+    align-items: center;
+}
+
+.com-img img {
+    width: 111px;
+    margin: auto;
+}
+/* Popular Collection */
+h2#pt {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    padding: 40px 0;
+}
+article.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.blog-image img {
+    width: 300px;
+}
+.blog-image h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.blog-image p {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.icon-box i {
+    color: #FB8200;
+}
+
+.icon-box span {
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.icon-box p {
+    color: #787885;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+.media {
+    margin-bottom: 19px;
+    padding: 22px;
+    box-shadow: 0px 0px 40px  rgba(0, 0, 0, 0.15);
+}
+
+/* footer */
+.footer-info {
+    text-align: center;
+    color: #fff;
+    line-height: 31px;
+}
+
+footer {
+    background: black;
+    padding: 37px;
+}
+
+h2.ftitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-info p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social i {
+    padding-right: 12px;
+}
