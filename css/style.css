@@ -139,6 +139,8 @@ article.blogs {
 
 /* footer */
 footer {
+    background-color: rgb(8, 8, 8);
+    padding: 50px 0px;
     text-align: center;
     color: #fff;
     }
