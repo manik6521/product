@@ -74,6 +74,7 @@ button.gobel i{
     padding: 18px;
     display: flex;
     flex-direction: column;
+    background-repeat: no-repeat;
 }
 /* image of company */
 .com-img {
